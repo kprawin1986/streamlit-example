@@ -4,7 +4,8 @@ st.header('st.button')
 
 if st.button('Hi'):
      st.write('Yes. Who are you??')
-          st.button('What do you want')
+          if st.button('Hi'):
+               st.write('I am hearing you')
 
 else:
      st.write('Goodbye')
