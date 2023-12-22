@@ -8,5 +8,3 @@ from docx import Document
 import frontend_lib
 import google.generativeai as genai
 
-if __name__ == '__main__':
-        response = bard.get_answer(prompt)
