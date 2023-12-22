@@ -9,11 +9,4 @@ import frontend_lib
 import google.generativeai as genai
 
 if __name__ == '__main__':
-    #print(frontend_lib.st.session_state)
-   try:
-        bard = BardCookies(cookie_dict=cookie_dict)
-        response = bard.get_answer(prompt)
-        return (response['content'])
-    except:
-        print("Cookie update required")
-        return None
+        response = bard.get_answer(prompt
